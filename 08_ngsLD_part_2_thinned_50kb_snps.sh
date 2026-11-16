@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 # PART 2: run ngsLD, then prune at two r2 thresholds (0.5 and 0.2)
-# Run:  bash part2_ngsLD_v2.sh
-# Needs the output of part1_prep_v2.sh: all_pops.geno.gz and all_pops.pos
+# Needs the output of ngsLD_part_1_thinned_50kb_snps.sh: all_pops.geno.gz and all_pops.pos
 
 set -e
 
