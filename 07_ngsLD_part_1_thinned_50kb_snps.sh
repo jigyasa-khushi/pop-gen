@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# PART 1: prepare the beagle file for ngsLD
-# Run:  bash part1_prep_v2.sh
+# PART 1: prepare the beagle file for ngsLD 
+# Run:  bash ngsLD_part_1_thinned_50kb_snps.sh
 # Input : all_pops_thinned_50kb.beagle.gz  (from ANGSD)
 # Output: all_pops_thinned_50kb.geno.gz and all_pops_thinned_50kb.pos (in the ngsLD_input folder)
 
