@@ -9,7 +9,7 @@ set -e
 
 # ---- Paths (change here only) ----
 BASE_DIR=/media/birdlab/bird_hdd3/jigyasha/RB/angsd/genotype_likelihood
-LD_DIR=$BASE_DIR/ngsLD_output           # where all_pops.ld is
+LD_DIR=$BASE_DIR/ngsLD_output           # where all_pops_thinned_50kb.ld is
 BEAGLE=$BASE_DIR/all_pops_50kb_thinned_beagle.gz    # the 50kb thinned beagle file
 OUT_DIR=$BASE_DIR/pruned_beagle         # new folder for results
 PRUNE=/home/birdlab/softs/prune_graph/target/release/prune_graph
