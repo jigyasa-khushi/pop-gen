@@ -5,7 +5,7 @@ set -euo pipefail
 # Using genotype likelihoods (correct for 5× LC genomes)
 # ALL POPULATIONS BEAGLE  BEAGLE WILL GIVE ME LIKLIEHOODS, AT 5X I THOUGHT RATHER THAN HARD GENOTYPING BY VCFS, BEAGLE WLD BE FINE.
 # All 12 individuals together
-# Order: hyperythra (7) subrufa ()
+# Order: hyperythra (3) subrufa (9)
 # This order MUST match sample info in R
 REF="/media/birdlab/bird_hdd3/jigyasha/RB/ref_genome/ncbi_dataset/data/GCA_981468605.1/GCA_981468605.1_B10K-LU-20-09_genomic.fna"
 BAMLIST="/media/birdlab/bird_hdd3/jigyasha/RB/indel_aligned/all_samples_bam_list.txt"
