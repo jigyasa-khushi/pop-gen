@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# PART 3: make pruned beagle files (r2 0.5 and r2 0.2) for PCAngsd
+# PART 3: make pruned beagle files (r2 0.5 and r2 0.2) for PCAngsd, repeat with changing threshold values
 # Run:  bash getting_beagle_after_LD_pruning_50kb thinned.sh
 # Idea: get the list of REMOVED sites from prune_graph, then keep every
 #       beagle line whose marker is NOT in that list.
