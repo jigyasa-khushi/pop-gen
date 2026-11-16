@@ -3,7 +3,7 @@ set -e  # Exit if any command fails
 
 # ==== Paths ====
 inpath="/mnt/f/jigyasha/trimmed/"  # Input FASTQs
-outpath="/mnt/f/jigyasha/RB/mapped_unfiltered_duplicates/"  # Output directory
+outpath="/mnt/f/jigyasha/RB/mapped/"  # Output directory
 reffile="/mnt/f/jigyasha/rufous_babbler_ref_sequence/GCA_981468605.1_B10K-LU-20-09_genomic.fna"
 email="jigyasha_20221069@students.iisertirupati.ac.in"
 
